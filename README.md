@@ -1,7 +1,10 @@
-# VESIT_pexam_portal
-AQPGS allows to generate question paper and matches the answers after the test , displays the result of the student. 
+# VESIT_pep
 
-The student has to sign in using his/her Google mail ID and then can take the test. Here this system is designed for our college (VESIT) for placement cell of Information Technology.
+<strong>Introducing VESIT placement exam portal !</strong>
+
+VESIT_pep is made using AQPGS technique that allows to generate question paper and matches the answers after the test , displays the result of the student. 
+
+First the student has to sign in using his/her Google mail ID and then can take the test. Here this system is designed for our college (VESIT) for placement cell of Information Technology.
 
 By which students will be able to give test related to placements and come to know where they stand right now.
 
