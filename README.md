@@ -2,7 +2,7 @@
 
 <strong>Introducing VESIT pre-placement exam portal !</strong>
 
-VESIT PREP is made using WORDPRESS in which AQPGS technique is incoporated that allows to generate question paper and matches the answers after the test , displays the result of the student. 
+VESIT PREP is made using WORDPRESS in which AQPGS technique is incorporated that allows to generate question paper and matches the answers after the test , displays the result of the student. 
 
 First the student has to sign in using his/her Google mail ID and then can take the test. Here this system is designed for our college (VESIT) for <strong>placement cell of Information Technology.</strong>
 
