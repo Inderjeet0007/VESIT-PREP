@@ -1,0 +1,4 @@
+set,subset,question,opt1,opt2,opt3,opt4,answer,multi
+Drupal,Coding,Do you like exam engine ?,Yes,Ofcourse,No,Not At All,opt1-opt2,Y
+Java,Android,Do you like exam engine ?,Yes,No,Ofcource,Not At All,opt1-opt3,Y
+Drupal,Meganto,Do you like exam engine ?,No,No,Yes,Yes,opt3-opt4,Y

@@ -1,0 +1,123 @@
+.wpc-content-restricted {
+    margin-bottom: 20px;
+}
+.cm-item {
+	display:inline-block;
+    padding: 8px;
+    background: #f1f1f1;
+    margin: 10px 10px 10px 0;
+    border-bottom: 3px solid #e96656;
+}
+.cm-item .active {
+    color: black;
+}
+.cm-item:last-of-type{
+	clear:right;
+}
+.toolbar-button {
+    padding: 5px;
+    border: 1px solid lightgray;
+    display: block;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+.start-button {
+	background: #e96656;
+	border-bottom: 3px solid #545454;
+}
+.start-button {
+	color: white !important;
+}
+.start-button:hover {
+    text-decoration: none;
+	color:#e96656 !important;
+	background: #f1f1f1;
+	border-bottom: 3px solid #e96656;
+}
+.course-container {
+    width: 31.33%;
+    margin: 0 1% 20px;
+    background: #f9f9f9;;
+    padding: 20px;
+    display:inline-block;
+    vertical-align:top;
+}
+@media screen and (max-width: 1024px){
+    .course-container {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 799px){
+    .course-container {
+        width: 100%;
+        margin:0;
+    }
+}
+.course-container h2 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+#courses-wrapper {
+    margin: 0 -1%;
+}
+.course-category-list {
+	margin: 0 0 20px 0;
+    padding: 0 !important;
+    border-bottom: 2px solid lightgray;
+}
+.wpc-lesson-content {
+    margin: 20px 0;
+}
+.wpc-content-restricted, .wpc-lesson-content {
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.lesson-nav {
+	margin: 0;
+    padding: 0 !important;
+    position: relative;
+	list-style-type: none;
+	overflow-y: auto;
+    max-height: 360px;
+}
+.lesson-button {
+    border: 1px solid lightgray;
+	margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    list-style-type: none;
+}
+.lesson-button i {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+.lesson-button a:hover {
+    text-decoration: none;
+}
+.active-lesson-button a {
+    color: black;
+}
+.tools-container {
+	position: fixed;
+    top: 180px;
+    left: 0px;
+    z-index: 99999;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+.tool-toggle i {
+	padding: 5px;
+    margin: 5px;
+    background: #e96656;
+    border-radius: 4px;
+    color: white;
+}
+.tool-toggle i:hover {
+	cursor: pointer;
+}
+.toolbar-content {
+	display: none;
+	margin: 0 5px;
+}

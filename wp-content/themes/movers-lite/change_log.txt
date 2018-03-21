@@ -1,0 +1,14 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Escape all the fiunctions, resolved few error and screenshot changed.
+
+Version 1.1.2
+i) Added image url and font awesome license in readme file.
+
+Version 1.1.3
+i) Added proper license for font awesome in readme file and added escape functions.
+
+
+

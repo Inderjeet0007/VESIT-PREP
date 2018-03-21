@@ -1,0 +1,258 @@
+/* 
+    Document   : template-css
+    Created on : Dec 4, 2013, 12:55:33 AM
+    Author     : Emerico
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* user widget css */
+.profile-pic-style {
+    max-height: 170px;
+    max-width: 170px;
+    height: 170px;
+    width: 170px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0px 0px 12px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 12px rgba(0,0,0,0.3);
+    -webkit-background-size: cover;
+    background-size: cover;
+    border: 3px solid #e6e6e6;
+    overflow:hidden;
+}
+.profile-pic-style img{
+}
+#pro-profile-pic-container {
+    z-index: 2;
+    width: 170px;
+    height: 170px;
+    margin: 0px auto;
+    margin-top: 1.3em;
+    margin-bottom: 0.2em;
+}
+.profile-pic-container-style {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 170px;
+    height: 170px;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+}
+#pro-info {
+    position: relative;
+    margin: 0px auto;
+    width: 15rem;
+    left: 4px;
+}
+#pro-info-top, #pro-info-bottom {
+    margin: 0px auto;
+    text-align: center;
+}
+#pro-name {
+    line-height: 20pt;
+    font-size: 17pt;
+    font-weight: bold;
+}
+#first-name, #last-name {
+    color: #444;
+}
+#pro-info-bottom {
+    overflow-y: auto;
+    max-height: 90px;
+    height: 40px;
+}
+#location {
+    padding-bottom: 8px;
+}
+.pro-info-detail {
+    padding-left: 0.2em;
+    text-indent: -0.2em;
+    font-size: 90%;
+    color: #888;
+    margin: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#pro-info hr {
+    display: block;
+    border: none;
+    color: white;
+    height: 1px;
+    background: black;
+    background-image: -webkit-radial-gradient(#e0d2cd, #fff);
+    background-image: -moz-radial-gradient(#e0d2cd, #fff);
+    width: 130px;
+    margin: 0px auto;
+    margin-bottom: 1em;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid white;
+}
+.left-sidebar .widget_archive{
+    list-style:none;
+}
+.form-label{
+    margin-top: 10px;
+    display: block;
+}
+.form-label label{
+    color: #888;
+}
+.field input{
+    width:90%;
+    height: 25px;
+}
+.form-wrapper h3{
+    color: #444;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.form-wrapper{
+    width: 220px;
+    margin: 0 auto;
+}
+.eme_btn{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=99);
+    opacity: 0.99;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(45%, rgba(255,255,255,0.1)), color-stop(50%, transparent));
+    background-image: compact(rgba(255,255,255,0.1) 45%, transparent 50%, false, false, false, false, false, false, false, false);
+    display: block;
+    padding: 13px 22px 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    border: 0;
+    background-color: #a2a2a2;
+    margin-top: 0.5em;
+    color: #fff;
+    display: inline-block;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    background-color: #8dc906;
+    cursor: pointer;
+}
+.eme_btn:hover, .eme_btn:active{
+    background-color: #6a9705;
+}
+.eme_btn_de{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=99);
+    opacity: 0.99;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(45%, rgba(255,255,255,0.1)), color-stop(50%, transparent));
+    background-image: compact(rgba(255,255,255,0.1) 45%, transparent 50%, false, false, false, false, false, false, false, false);
+    display: block;
+    padding: 13px 22px 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    -ms-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    border: 0;
+    background-color: #a2a2a2;
+    cursor: pointer;
+}
+.eme_btn_de:hover, .eme_btn_de:active{
+    color: #fff;
+    background-color: #898989;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn_signup{
+    width: 11.5em;
+    margin: 15px 20px;
+}
+.avtar_upload form{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px dotted #efefef;
+}
+.btnUpload{
+    float: left;
+}
+.btnSkip{
+    float: left;
+    margin-top:6px;
+}
+.menu_test ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_test ul li{
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.menu_test ul li:hover, .menu_test ul li:active{
+    background: #4cbcc7;
+}
+.menu_test ul li:hover a, .menu_test ul li:active a{
+    color: #fff;
+}
+.menu_test ul li a{
+    text-decoration: none;
+    color: #444;
+}
+.alert-danger{
+    color: red;
+}
+.alert-info{
+    color: skyblue;
+}
+.alert-success{
+    color: green;
+}
+/* single page css*/
+.bx-viewport{
+    height:200px !important;
+}
+.question-item{ 
+}
+.question-item p{
+    display: block;
+    margin-bottom: 10px;
+}
+.question-item p label{
+    cursor:pointer;
+}
+.question-item p.quest{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #000;
+    font-weight:bold;
+}
+.bx-controls-direction{
+    text-align: center;
+}
+#exTimer{
+    display: inline-block;
+    float:right;
+}

@@ -1,0 +1,183 @@
+/* 
+    Document   : exam-engine-admin-style
+    Created on : Nov 30, 2013, 8:38:58 AM
+    Author     : Emerico
+    Description:
+        Purpose of the stylesheet follows.
+*/
+div.control-group{
+    display: block;
+    margin-bottom: 10px;
+}
+label.control-label{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.qWrap{
+    width:95%;
+}
+.qWrap h1{
+    color: #428bca;
+}
+.ex-set{
+   width: 520px;
+    float: left;
+    margin-right: 20px;
+}
+.ex-set #exSetBox{
+    min-height:160px;
+}
+.ex-subset #exSubsetBox{
+    min-height:160px;
+}
+.ex-subset{
+    width: 520px;
+    float: left;
+    margin-right: 20px;
+}
+.addedsets{
+    float:left;
+    width: 1060px;
+}
+#question{
+    height: 190px;
+}
+.filter{
+    margin-top: 10px;
+}
+.filter li{
+    display: inline-block;
+    margin-right: 35px; 
+}
+.list-group ul li ul{
+    
+}
+.list-group ul li ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+/* alerts */
+.alert {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+    margin-bottom: 10px;
+}
+.alert-danger {
+    border-left: 4px solid #FF4500;
+}
+.alert-success {
+    border-left: 4px solid #7ad03a;
+}
+.alert-info {
+    border-left: 4px solid #1E90FF;
+}
+/* list group */
+.list-group {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    border-bottom: 1px solid #eee;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+li.list-group-item {
+    color: #555555;
+    cursor: pointer;
+}
+li.list-group-item a{
+    text-decoration:none;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+li.list-group-item:hover, li.list-group-item:focus {
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+li.list-group-item {
+    color: #555555;
+}
+li.list-group-item:hover, li.list-group-item:focus {
+    color: #2a6496;
+}
+li.list-group-item:active, li.list-group-item:hover {
+    outline: 0;
+}
+.close{
+    display: inline-block;
+    float: right;
+    background: #dddddd;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 0px 5px;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -khtml-border-radius: 35px;
+    cursor: pointer;
+    margin-top:-18px;
+}
+.close:hover, .close:focus{
+    background: #888888;
+}
+/* import export page */
+#exImportBox.postbox .hndle,
+#exExportBox.postbox .hndle,
+#exAddQBox.postbox .hndle,
+#exSetBox.postbox .hndle,
+#exSubsetBox.postbox .hndle,
+#exManageBox.postbox .hndle,
+#exSearchBox.postbox .hndle{
+    cursor: pointer;
+    font-weight: normal;
+    padding: 5px;
+}
+#exImportBox.postbox .hndle span,
+#exExportBox.postbox .hndle span,
+#exAddQBox.postbox .hndle span,
+#exSetBox.postbox .hndle span,
+#exSubsetBox.postbox .hndle span,
+#exManageBox.postbox .hndle span,
+#exSearchBox.postbox .hndle span{
+    padding-left: 10px;
+}
+#exSearchBox .inside,#exManageBox .inside{
+    overflow:hidden;
+}
+#exCsvToImport{
+    border: 1px solid #dddddd;
+    margin-top: -1px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -o-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -khtml-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+/* donation */
+.donation-wrap{
+    background-color: #f7fcfe; 
+    border-left: 4px solid #2ea2cc;
+    border-right: 4px solid #2ea2cc;
+}
+.donation-wrap h3.hndle{
+    cursor: pointer;
+    font-weight: normal;
+    padding: 5px;
+}
+.donation-wrap h3.hndle span{
+    padding-left: 10px;
+}

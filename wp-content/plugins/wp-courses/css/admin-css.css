@@ -1,0 +1,173 @@
+/* ADMIN CSS */
+.wpc-alt-admin-buttons a, .wpc-admin-btn {
+	padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    background: #0073aa;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.wpc-alt-admin-buttons a:hover, .wpc-admin-btn:hover {
+	background: #23282d;
+	color: white !important;
+}
+.wpc-alt-admin-menu {
+	background: #23282d;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.wpc-alt-admin-menu a {
+	padding: 10px 20px;
+	display: inline-block;
+    text-decoration: none;
+	color: white;
+}
+.wpc-alt-admin-menu a:hover {
+	background: #0073aa;
+}
+.wpc-admin-section {
+	width: auto;
+    background: #fff;
+    color: #23282d;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.wpc-admin-section h1, .wpc-admin-section h2, .wpc-admin-section h3, .wpc-admin-section h4, .wpc-admin-section h5, .wpc-admin-section h6 {
+	color: #23282d;
+	margin-top: 0;
+}
+.extension {
+	background: #fbf6f6;
+	display:inline-block;
+	width:280px;
+	height:auto;
+	padding:20px;
+	color:#23282d;
+	margin-right: 20px;
+	vertical-align: top;
+	margin-bottom:20px;
+}
+.extension h3 {
+	margin: -20px -20px 0 -20px;
+    color: black;
+    padding: 20px;
+    background: #f1f1f1;
+}
+.add-new{
+	position: relative;
+    top: 2px !important;
+}
+.button.small{
+	padding:0 4px 1px;
+}
+.card.big{
+	max-width:800px;
+}
+.card .lesson-list li, .card .course-list li{
+	border: 1px solid lightgray;
+    padding: 5px;
+    margin-bottom: 5px;
+    background:white;
+    cursor: pointer;
+}
+.category-list li, .course-list-buttons li{
+    display: inline-block;
+    margin: 5px 5px 5px 0 !important;
+}
+.sortable-table img{
+	width:70px;
+}
+.sortable-table img:hover{
+	cursor:pointer;
+}
+.sortable-table .ui-sortable-handle{
+	height:51px;
+}
+.sortable-table select{
+	max-width:100%;
+}
+.sortable-table tr:nth-of-type(odd){
+	background:#f9f9f9;
+}
+.sortable-table th{
+	background:#fff;
+}
+.lightbox-wrapper{
+	background:rgba(0,0,0,0.3);
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:9999;
+}
+.lightbox{
+	background:#fff;
+	width:500px;
+	top:80px;
+	margin:0 auto;
+	display:block;
+	height:auto;
+	padding:10px;
+	border-radius:4px;
+	position:relative;
+}
+.lightbox-close{
+	position:absolute;
+	color:gray;
+	top:-20px;
+	right:-20px;
+	line-height:0;
+	text-align:center;
+	width:40px;
+	height:40px;
+	background:#fff;
+	border-radius:20px;
+	font-size:20px;
+	border:3px solid gray;
+}
+.lightbox-close:hover{
+	cursor:pointer;
+	color:black;
+}
+.wpc-nav-wrap{
+	margin-bottom:0;
+}
+.wpc-nav-wrap ul{
+	margin: 0 0 10px 0;
+}
+.info-button{
+	float:left;
+	margin-right:3px !important;
+	margin-bottom:10px !important;
+	clear:right;
+}
+#admin-lesson-count{
+	float:right;
+	margin:0;
+}
+.lesson-list td .wp-menu-image:before{
+	color:rgba(0,0,0,0.5) !important;
+	float:left;
+}
+/* META BOX */
+#wpc-lesson-restriction-overlay {
+	height: 100%;
+    width: calc(100% - 20px);
+	color: white;
+	background: rgba(255, 0, 42, 0.9);;
+	color: white;
+	text-align: middle;
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	padding: 10px;
+	border: 1px solid darkred;
+    text-shadow: 1px 1px 2px darkred;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
