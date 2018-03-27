@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>Dashboard <small>Welcome {{session.username}}</small></h1><br>
+    <h3>What would you like to do?</h3><br><br>
+      <a class="btn btn-success" href="/test" >Take a TEST</a>
+      <a class="btn btn-success" href="/learn" >LEARN Concepts</a>
+      <a class="btn btn-success" href="/prac" >PRACTICE Test</a>
+      <a class="btn btn-success" href="/analy" >ANALYSIS of your presvious test</a>
+      <a class="btn btn-success" href="/pe" >PAST EXPERIENCES</a>
+      <a class="btn btn-success" href="/cp" >Gothrough COMPANY PROFILES</a>
+
+{% endblock %}

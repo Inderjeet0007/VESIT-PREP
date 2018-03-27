@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+
+      <a class="navbar-brand" href="#">VESIT PREP</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/articles">Articles</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav navbar-right">
+          {% if session.logged_in %}
+            <li class="nav-item">
+              <a class="nav-link " href="/dashboard">Dashboard <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/logout">Logout <span class="sr-only">(current)</span></a>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link " href="/register">Register <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/login">Login <span class="sr-only">(current)</span></a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
