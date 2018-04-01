@@ -15,3 +15,25 @@ The results of each student will be stored in the database of the college for fu
 The students who score less are given acess to learning portal which includes different courses/videos/material to study and then reappear for the test.
 
 Also, the system will be able indentify how many times has the student cheated (if so).
+
+# Modules:
+
+1> Test
+
+2> Practice
+
+3> Analysis
+
+4> Experiences of students
+
+5> Company Profile
+
+# Contributors:
+
+1> Inderjeet Saluja
+
+2> Aarti Bhagtani
+
+3> Suraj Bhatt
+
+4> Nidhi Mishra
